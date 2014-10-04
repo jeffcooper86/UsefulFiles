@@ -1,5 +1,9 @@
 export PATH=/usr/local/bin:$PATH
-alias pyidle="/usr/bin/idle"
+
+#aliases
+alias pidle="/usr/bin/idle"
+
+#source files
 source ~/git-completion.bash
 source ~/git-prompt.sh
 
@@ -13,6 +17,7 @@ purple="\[\033[0;35m\]"
 cyan="\[\033[0;36m\]"
 reset="\[\033[0m\]"
 
-export GIT_PS1_SHOWDIRTYSTATE=1
+#set custom prompt
+export GIT_PS1_SHOWDIRTYSTATE=1 
 export PS1="\n$cyan\u$green\$(__git_ps1) $reset :$cyan\W $purple\$ $reset"
 
