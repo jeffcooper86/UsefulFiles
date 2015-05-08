@@ -2,6 +2,7 @@ export PATH=/usr/local/bin:$PATH
 
 #aliases
 alias pidle="/usr/bin/idle"
+alias pyserve="python -m SimpleHTTPServer 8000"
 
 #source files
 source ~/git-completion.bash
